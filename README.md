@@ -18,7 +18,7 @@ Framework for machine learning projects at Insight Data Science
 # Step 1
 # Step 2
 ```
-### Verify results match
+_Verify results match_
 ```
 # Example test results
 ```
