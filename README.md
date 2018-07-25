@@ -1,5 +1,6 @@
 # Insight_Project_Framework
-Framework for machine learning projects at Insight Data Science. 
+Framework for machine learning projects at Insight Data Science. Below is a _generic_ example data pipeline for motivation:
+![Example_Data_Pipeline](https://github.com/mrubash1/Insight_Project_Framework/blob/master/static/example-data-pipeline.png)
 
 ## Motivation for this project format:
 - **src** : Put all source code for production within structured directory
