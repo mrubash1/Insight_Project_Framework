@@ -12,8 +12,8 @@ Framework for machine learning projects at Insight Data Science.
 ## Setup
 Clone repository and update python path
 ```
-repo_name=Insight_Project_Framework #url of your new repository
-username=mrubash1 #username for your personal github account
+repo_name=Insight_Project_Framework # URL of your new repository
+username=mrubash1 # Username for your personal github account
 git clone https://github.com/$username/$repo_name
 cd $repo_name
 echo "export $repo_name=${PWD}" >> ~/.bash_profile
@@ -22,7 +22,7 @@ source ~/.bash_profile
 ```
 Create new development branch and switch onto it
 ```
-branch_name=dev
+branch_name=dev-readme_requisites_20180905 # Name of development branch, of the form 'dev-feature_name-date_of_creation'}}
 git checkout -b $branch_name
 git checkout $branch_name
 git push origin $branch_name
