@@ -22,7 +22,7 @@ source ~/.bash_profile
 ```
 Create new development branch and switch onto it
 ```
-branch_name=dev-readme_requisites_20180905 # Name of development branch, of the form 'dev-feature_name-date_of_creation'}}
+branch_name=dev-readme_requisites-20180905 # Name of development branch, of the form 'dev-feature_name-date_of_creation'}}
 git checkout -b $branch_name
 git checkout $branch_name
 git push origin $branch_name
