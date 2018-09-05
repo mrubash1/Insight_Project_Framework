@@ -9,6 +9,24 @@ Framework for machine learning projects at Insight Data Science.
 - **build** : Include scripts that automate building of a standalone environment
 - **static** : Any images or content to include in the README or web framework if part of the pipeline
 
+## Setup
+Clone repository and update python path
+```
+repo_name=Insight_Project_Framework #url of your new repository
+username=mrubash1 #username for your personal github account
+git clone https://github.com/$username/$repo_name
+cd $repo_name
+echo "export $repo_name=${PWD}" >> ~/.bash_profile
+echo "export PYTHONPATH=$repo_name/src:${PYTHONPATH}" >> ~/.bash_profile
+source ~/.bash_profile
+```
+Create new development branch and switch onto it
+```
+branch_name=dev
+git checkout -b $branch_name
+git checkout $branch_name
+git push origin $branch_name
+```
 
 ## Requisites
 - List all packages and software needed to build the environment
