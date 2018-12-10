@@ -2,7 +2,7 @@
 Framework for machine learning projects at Insight Data Science. 
 
 ## Motivation for this project format:
-- **src** : Put all source code for production within structured directory
+- **Insight_Project_Framework** : Put all source code for production within structured directory
 - **tests** : Put all source code for testing in an easy to find location
 - **configs** : Enable modification of all preset variables within single directory (consisting of one or many config files for separate tasks)
 - **data** : Include example a small amount of data in the Github repository so tests can be run to validate installation
@@ -24,6 +24,21 @@ Create new development branch and switch onto it
 ```
 branch_name=dev-readme_requisites-20180905 # Name of development branch, of the form 'dev-feature_name-date_of_creation'}}
 git checkout -b $branch_name
+```
+
+## Initial Commit
+Lets start with a blank slate: remove `.git` and re initialize the repo
+```
+cd $repo_name
+rm -rf .git   
+git init   
+git status 
+```  
+You'll see a list of file, these are files that git doesn't recognize. At this point, feel free to change the directory names to match your project. i.e. change the parent directory Insight_Project_Framework and the project directory Insight_Project_Framework: 
+Now commit these:
+```
+git add .
+git commit -m "Initial commit"
 git push origin $branch_name
 ```
 
