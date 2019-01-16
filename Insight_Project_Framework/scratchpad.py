@@ -6,9 +6,9 @@ https://docs.google.com/presentation/d/1qo_MDz3iF0YRykuElF6I9WC4yAQIYzOA-GY16_NO
 
 Or by running:
 
-pip install streamlit
+pip install -r requirements.txt
 
-from the comamand line.
+from the top-level project folder.
 """
 
 import streamlit as st
