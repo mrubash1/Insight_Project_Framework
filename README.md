@@ -1,5 +1,5 @@
 # Insight_Project_Framework
-Framework for machine learning projects at Insight Data Science. 
+Framework for machine learning projects at Insight Data Science.
 
 ## Motivation for this project format:
 - **Insight_Project_Framework** : Put all source code for production within structured directory
@@ -32,9 +32,9 @@ Lets start with a blank slate: remove `.git` and re initialize the repo
 cd $repo_name
 rm -rf .git   
 git init   
-git status 
+git status
 ```  
-You'll see a list of file, these are files that git doesn't recognize. At this point, feel free to change the directory names to match your project. i.e. change the parent directory Insight_Project_Framework and the project directory Insight_Project_Framework: 
+You'll see a list of file, these are files that git doesn't recognize. At this point, feel free to change the directory names to match your project. i.e. change the parent directory Insight_Project_Framework and the project directory Insight_Project_Framework:
 Now commit these:
 ```
 git add .
@@ -43,13 +43,18 @@ git push origin $branch_name
 ```
 
 ## Requisites
+
 - List all packages and software needed to build the environment
 - This could include cloud command line tools (i.e. gsutil), package managers (i.e. conda), etc.
-```
-# Example
-- A
-- B
-- C
+
+#### Dependencies
+
+- [Streamlit](streamlit.io)
+
+#### Installation
+To install the package above, pleae run:
+```shell
+pip install -r requiremnts
 ```
 
 ## Build Environment
@@ -101,7 +106,7 @@ git push origin $branch_name
 ```
 
 ## Serve Model
-- Include instructions of how to set up a REST or RPC endpoint 
+- Include instructions of how to set up a REST or RPC endpoint
 - This is for running remote inference via a custom model
 ```
 # Example
